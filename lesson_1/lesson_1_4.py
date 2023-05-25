@@ -1,0 +1,5 @@
+print("Введите общее колличество поделок:")
+a = int(input())
+twoChilds = int((a/3)/2)
+lastChild = int(twoChilds*4)
+print(f"{a} -> {twoChilds} {lastChild} {twoChilds}")
