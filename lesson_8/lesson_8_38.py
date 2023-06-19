@@ -139,7 +139,6 @@ def editPerson():
             print("Edit canceled")
     return flag
 
-# Удаление контакта
 def deletePerson():
     phoneBook = readData(source)
     print("Delete data:")
